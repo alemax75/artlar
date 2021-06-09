@@ -6,7 +6,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'screen/signin_screen.dart';
+
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,10 +36,10 @@ class MyApp extends StatelessWidget {
           primaryColor: kPrimaryColor,
           scaffoldBackgroundColor: kBackgroundColor,
           textTheme: TextTheme(
-            display1:
+            headline4:
                 TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
             button: TextStyle(color: kPrimaryColor),
-            headline:
+            headline5:
                 TextStyle(color: Colors.white, fontWeight: FontWeight.normal),
           ),
           inputDecorationTheme: InputDecorationTheme(

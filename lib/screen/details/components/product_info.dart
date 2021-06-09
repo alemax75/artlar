@@ -33,6 +33,7 @@ class ProductInfo extends StatelessWidget {
             Text(
               product.title,
               style: TextStyle(
+                color: Colors.black87,
                 fontSize: defaultSize * 2.4, //24
                 fontWeight: FontWeight.bold,
                 letterSpacing: -0.8,
@@ -40,10 +41,11 @@ class ProductInfo extends StatelessWidget {
               ),
             ),
             SizedBox(height: defaultSize * 2),
-            Text("Form", style: lightTextStyle),
+            Text("Preço", style: lightTextStyle),
             Text(
               "\$${product.price}",
               style: TextStyle(
+                color: Colors.black,
                 fontSize: defaultSize * 1.6, //16
                 fontWeight: FontWeight.bold,
                 height: 1.6,

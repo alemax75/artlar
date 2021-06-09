@@ -38,6 +38,7 @@ class ProductDescription extends StatelessWidget {
             Text(
               product.subTitle,
               style: TextStyle(
+                color: Colors.brown,
                 fontSize: defaultSize * 1.8,
                 fontWeight: FontWeight.bold,
               ),

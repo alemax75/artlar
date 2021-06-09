@@ -22,8 +22,10 @@ class Body extends StatelessWidget {
           children: <Widget>[
             Padding(
               padding: EdgeInsets.all(defaultSize * 2), //20
-              child: TitleText(
-                title: "Browse by Categories",
+              child: Text(
+                 "Procurar por Categorias",style: TextStyle(
+                   fontSize: 18,
+                 ),
               ),
             ),
             StreamBuilder(
